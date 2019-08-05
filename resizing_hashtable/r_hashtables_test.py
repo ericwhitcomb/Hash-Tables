@@ -104,6 +104,7 @@ class TestFullHashTable(unittest.TestCase):
         hash_table_insert(ht, "key-8", "val-8")
         hash_table_insert(ht, "key-9", "val-9")
 
+        print(ht.storage)
         hash_table_remove(ht, "key-9")
         hash_table_remove(ht, "key-8")
         hash_table_remove(ht, "key-7")
